@@ -496,7 +496,7 @@ Sea = function(){
                     });
   };
   var mat = new THREE.MeshPhongMaterial({
-    color:Colors.blue,
+    color:Colors.red,
     transparent:true,
     opacity:.8,
     shading:THREE.FlatShading,
