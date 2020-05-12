@@ -64,8 +64,8 @@
 }
 
 .score__content:nth-child(2) {
-	border-right: 1px solid #d1b790;
-	border-left: 1px solid #d1b790;
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
 }
 
 .score__label {
@@ -75,13 +75,13 @@
 	text-align: center;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	color: #d1b790;
+	color: #ffffff;
 }
 
 .score__value {
 	font-family: 'Playfair Display';
 	font-weight: bold;
-	color: #d1b790;
+	color: #ffffff;
 }
 
 .score__value--level {
@@ -107,7 +107,7 @@
 	height: 8px;
 	margin-top: 20px;
 	border-radius: 3px;
-	background-color: #d1b790;
+	background-color: #ffffff;
 }
 
 .energy-bar {
