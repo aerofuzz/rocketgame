@@ -562,7 +562,7 @@ Cloud.prototype.rotate = function(){
 Ennemy = function(){
   var geom = new THREE.TetrahedronGeometry(8,2);
   var mat = new THREE.MeshPhongMaterial({
-    color:Colors.black,
+    color:Colors.red,
     shininess:0,
     specular:0xffffff,
     shading:THREE.FlatShading
