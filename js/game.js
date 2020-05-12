@@ -562,7 +562,7 @@ Cloud.prototype.rotate = function(){
 Ennemy = function(){
   var geom = new THREE.TetrahedronGeometry(8,2);
   var mat = new THREE.MeshPhongMaterial({
-    color:Colors.red,
+    color:Colors.yellow,
     shininess:0,
     specular:0xffffff,
     shading:THREE.FlatShading
@@ -689,7 +689,7 @@ ParticlesHolder.prototype.spawnParticles = function(pos, density, color, scale){
 Coin = function(){
   var geom = new THREE.TetrahedronGeometry(5,0);
   var mat = new THREE.MeshPhongMaterial({
-    color:0x009999,
+    color:0x990099,
     shininess:0,
     specular:0xffffff,
 
